@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    position: fixed;
+    box-sizing: border-box;
+    
+    padding: 20px;
+}
+
+.logo-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 20%;
+}
+
+.logo-header img {
+    width: 300px;
+}
+
+.header-icon svg {
+    width: 20px;
+}
+
+.menu-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 50%;
+}
+
+.nav-bar-item {
+    margin: 20px;
+}
+
+.header-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 30%;
+}
+
+.header-icon {
+    margin: 20px;
+}
