@@ -4,6 +4,7 @@ import './index.css';
 // import App from './App';
 import Navbar from './components/Navbar';
 import Product from './components/Product';
+import ProductPage from './components/ProductPage';
 
 
 
@@ -13,7 +14,8 @@ root.render(
     <React.StrictMode>
         <Navbar />
         {/* <App /> */}
-        <Product />
+        {/* <Product /> */}
+        <ProductPage />
     </React.StrictMode>
 );
 
