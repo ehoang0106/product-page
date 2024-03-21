@@ -1,0 +1,68 @@
+.product-page {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.product-image {
+    margin-right: 50px;
+}
+
+.product-image img {
+    max-width: 500;
+    height: auto;
+    border: 1px solid #ddd;
+    /* A light grey border */
+    padding: 5px;
+}
+
+.product-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.product-details h1 {
+    margin-bottom: 10px;
+}
+
+.price {
+    margin-bottom: 20px;
+}
+
+.price .original-price {
+    text-decoration: line-through;
+    color: #999;
+    /* A grey color to indicate the original price is not the current price */
+}
+
+.quantity-selector {
+    margin-bottom: 20px;
+}
+
+.quantity-selector label {
+    margin-right: 10px;
+}
+
+.quantity-selector input {
+    width: 60px;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #f5f5f5;
+    /* A light grey background on hover */
+}
+
+/* You might want to add specific classes or ids for the buttons if you want different styles */
