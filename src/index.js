@@ -3,8 +3,8 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 // import App from './App';
 import Navbar from './components/Navbar';
-// import Product from './components/Product';
-import ProductPage from './components/ProductPage';
+import Product from './components/Product';
+
 
 
 
@@ -14,8 +14,8 @@ root.render(
     <React.StrictMode>
         <Navbar />
         {/* <App /> */}
-        {/* <Product /> */}
-        <ProductPage />
+        <Product />
+        
     </React.StrictMode>
 );
 

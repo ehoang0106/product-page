@@ -6,6 +6,26 @@
     height: 400px;
 }
 
-.left-slider img {
-    width: 200px;
+.content-left {
+    display: flex;
+    width: 550px;
+    justify-content: space-between;
+}
+
+
+.slider li {
+    list-style: none;
+    
+}
+
+.slides {
+    width: 100px;
+}
+
+.slides img {
+    width: 100px;
+}
+
+.main-slider img {
+    width: 400px;
 }
